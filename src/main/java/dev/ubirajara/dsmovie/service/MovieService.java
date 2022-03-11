@@ -26,4 +26,5 @@ public class MovieService {
         Movie result = repository.findById(id).get();
         return new MovieDTO(result);
     }
+
 }
